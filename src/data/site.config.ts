@@ -23,6 +23,7 @@ export interface TestimonialItem {
   role: string;
   quote: string;
   rating: number;
+  image: string;
 }
 
 export interface FAQItem {
@@ -208,19 +209,22 @@ export const siteConfig = {
       name: "Vikram Malhotra",
       role: "Bhopal Business Owner (Active Member 3+ Years)",
       quote: "TFHQ has completely redefined what a luxury gym means in Central India. The floor is massive, I never have to wait for equipment, and the steam rooms feel like a 5-star hotel spa. A class apart.",
-      rating: 5
+      rating: 5,
+      image: "/images/review-avatar-3.jpg"
     },
     {
       name: "Anjali Deshmukh",
       role: "IT Professional (Member 18 Months)",
       quote: "The group studio environment is electrifying! The spinning studio's sound and lighting make workouts feel like a concert. Plus, being an official FITPASS partner makes access incredibly flexible.",
-      rating: 5
+      rating: 5,
+      image: "/images/review-avatar-2.jpg"
     },
     {
       name: "Dr. Sandeep Verma",
       role: "Orthopedic Surgeon (Member 4+ Years)",
       quote: "As a medical professional, I am highly critical of form and trainer expertise. The coaches at TFHQ are genuinely knowledgeable, and the high-end bio-mechanical equipment ensures joints are fully protected.",
-      rating: 5
+      rating: 5,
+      image: "/images/review-avatar-1.jpg"
     }
   ] as TestimonialItem[],
 
