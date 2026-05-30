@@ -8,7 +8,6 @@ import { Transformations } from "@/components/sections/Transformations";
 import { Programs } from "@/components/sections/Programs";
 import { Trainers } from "@/components/sections/Trainers";
 import { Community } from "@/components/sections/Community";
-import { InstagramReels } from "@/components/sections/InstagramReels";
 import { Pricing } from "@/components/sections/Pricing";
 import { FITPASSCallout } from "@/components/sections/FITPASSCallout";
 import { Testimonials } from "@/components/sections/Testimonials";
@@ -47,9 +46,6 @@ export default function Home() {
 
         {/* Section 8: culture, events, and Instagram mosaic */}
         <Community />
-
-        {/* Section 8.5: Live Looping Instagram Reels Showcase */}
-        <InstagramReels />
 
         {/* Section 9: Membership Tier grids */}
         <Pricing />
